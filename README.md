@@ -1,10 +1,11 @@
 # tugas-labkom-2018-Kalderac
 tugas-labkom-2018-Kalderac created by GitHub Classroom
-XI.6-166208384-Kaldera Chechilia Marchelina-Ketua
-XI.6-166208338-Difa Afiyah Sucisatryani-Writing
-XI.6-166208387-Kristania Atrix-Writing
-XI.6-166208367-Hany Ayudyaningrum-Desain
-XI.6-166208413-Mochammad Irzal-Desain
-XI.6-166208481-Rafi Chandra-Research
-XI.6-166208458-Muhammad Zhafran-Programming
-XI.6-166208482-Rafli Aulia Hermansyah-Programming
+Senyawa oragnik: Tetrahidrofuran
+Kaldera Chechilia Marchelina / 166208384 / Kalderac
+Difa Afiyyah Sucisatryani/ 166208338 / Difastr
+Kristania Atrix / 166208387 / Kristaniaan
+Hany Ayudyaningrum / 166208367 / Hanyayudya
+Mochammad Irzal / 166208413 / Irzal24
+Rafi Chandra / 166208481 / rafichandra
+Muhammad Zhafran / 166208458 / Zhafrangd
+Rafli Aulia Hermansyah / 166208482 / Raflihermansyah
