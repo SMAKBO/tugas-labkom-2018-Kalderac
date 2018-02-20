@@ -1,6 +1,6 @@
 # tugas-labkom-2018-Kalderac
 tugas-labkom-2018-Kalderac created by GitHub Classroom
-Senyawa oragnik: Tetrahidrofuran
+Senyawa organik: Tetrahidrofuran
 Kaldera Chechilia Marchelina / 166208384 / Kalderac
 Difa Afiyyah Sucisatryani/ 166208338 / Difastr
 Kristania Atrix / 166208387 / Kristaniaan
