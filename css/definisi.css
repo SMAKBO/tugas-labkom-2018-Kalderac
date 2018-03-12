@@ -1,0 +1,28 @@
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 60%;
+      height: 60%;
+  }
+
+  body {background-color: #ffffb3;}
+
+  .blog-header-logo {font-size: 45px; font-family: hammersmith one; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 5px; border-radius: 5px;}
+
+  .btn {border: 1px solid  #6699ff}
+
+  .nav-tabs {font-family: saira semi Condensed;font-size: 20px;}
+
+  .jumbotron {background-color: #ffcc00}
+
+  .display-4 {text-align: center; font-family: coda;}
+
+  .lead {text-align: center;font-style: italic;}
+
+  .text {font: 18px "coda"; text-align: justify;}
+
+  .container-fluid {background-color: black;}
+
+  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;}
