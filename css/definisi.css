@@ -49,6 +49,6 @@
 
   .text {font: 18px "coda"; text-align: justify;}
 
-  .container-fluid {background-color: black; padding: 18px}
+  .container-fluid {background-color: black}
 
-  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;font-size: 18px}
+  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;font-size: 20px}
