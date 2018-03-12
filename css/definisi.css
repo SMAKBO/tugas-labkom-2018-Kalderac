@@ -1,3 +1,29 @@
+.parallax { 
+         /* Set a specific height */
+         height: 700px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+.caption {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: coda; 
+         }
+.caption span.border {
+         background-color: #111;
+         color: #ffff00;
+         padding: 18px;
+         font-size: 30px;  
+         letter-spacing: 10px;
+         }
+
+
 /* Make the image fully responsive */
   .carousel-inner img {
       width: 60%;
