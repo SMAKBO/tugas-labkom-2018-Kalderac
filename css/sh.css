@@ -1,5 +1,30 @@
   body {background-color: #ffffb3;}
 
+  .parallax { 
+         /* Set a specific height */
+         height: 700px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+.caption {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: coda; 
+         }
+.caption span.border {
+         background-color: #111;
+         color: #ffff00;
+         padding: 18px;
+         font-size: 30px;  
+         letter-spacing: 10px;
+         }
+
   .blog-header-logo {font-size: 45px; font-family: hammersmith one; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
     padding-right: 5px;
     padding-bottom: 1px;
@@ -12,3 +37,9 @@
   .jumbotron {background-color: #ffcc00}
 
   .display-4 {text-align: center; font-family: coda;}
+
+  .card-body {background-color: #ffffb3}
+
+  .card-title {font-family: hammersmith one}
+
+  .card-text {font-family: overpass}
