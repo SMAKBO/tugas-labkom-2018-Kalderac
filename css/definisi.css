@@ -47,8 +47,8 @@
 
   .lead {text-align: center;font-style: italic;}
 
-  .text {font: 20px "coda"; text-align: justify;}
+  .text {font: 18px "coda"; text-align: justify;}
 
-  .container-fluid {background-color: black; padding: 50px}
+  .container-fluid {background-color: black; padding: 30px}
 
-  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;}
+  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;font-size: 20px}
