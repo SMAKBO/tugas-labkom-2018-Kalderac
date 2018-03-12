@@ -1,19 +1,56 @@
 .body {background-color: #ffffb3}
-.judul {font-size: 45px; font-family: hammersmith one; border: 2px solid black;padding-top:1px;
+.parallax { 
+         /* Set a specific height */
+         height: 700px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+.caption {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: pragati narrow; 
+         }
+.caption span.border {
+         background-color: #111;
+         color: #ffff00;
+         padding: 18px;
+         font-size: 32px;  
+         letter-spacing: 10px;
+         }
+.blog-header-logo {font-size: 45px; font-family: hammersmith one; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
     padding-right: 5px;
     padding-bottom: 1px;
-    padding-left: 5px; border-radius: 5px; color: black;}
+    padding-left: 5px; border-radius: 5px;}
  .nav-tabs {font-family: saira semi Condensed;font-size: 20px;}
+ .jumbotron {background-color: #ffcc00}
   .bg-1 {
       background-color: #ffff80; /* Yellow */ float: none; text-align: center;font-family: 'Krona One', sans-serif;
       color: #000000; font-size: 32px;
   }
   .bg-2 {
       background-color: #99ddff; /* Blue */
-  }
+    }
   .bg-3 {
       background-color: #ffffe6; /* Yellow */
   }
   .bg-4 {
     background-color: #99ccff; /* Blue */
   }
+  .Poli {width:120px;height:100px;margin-right:10px;float: right;
+  }
+  .Mono {width:100px;height:100px;margin-left:10px;float:left;
+  }
+  .Scarlet {width:110px;height:100px;margin-left:10px;float:right;border-radius: 50%}
+  .Atom {font-family: 'Bree Serif', serif;
+        color: #331a00; font-size: 30px; text-align: center;
+      }
+  .navy {color: #cc3300; font-family: 'Crimson Text', serif;
+font-size: 18px;}
+.container-fluid2 {background-color: white}
+.lead {text-align: center; font-style: bold; font-family:'Berkshire Swash', cursive;color:#000000}
