@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
    <head>
@@ -10,7 +11,17 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
    </head>
+
+ <div class="parallax"; style="background-image:url(img/h.jpg)">
+         
+<div class="caption">
+            <span class="border">Safety & Hazard</span>
+          </div>
+
+         </div>
+
    <body>
       <div class="container">
       <header class="blog-header py-3">
@@ -25,6 +36,9 @@
             </div>
          </div>
       </header>
+
+
+
       <ul class="nav nav-fill nav-tabs">
          <li class="nav-item">
             <a class="nav-link " href="index.html">Home</a>
@@ -59,28 +73,48 @@
       <div class="jumbotron">
       <h1 class="display-4">Safety and Hazard</h1>
       <hr class="my-4";>
-      <p>Signal: Danger</p>
-<p>GHS Hazard Statements</p>
-<br>
-<p>Aggregated GHS information provided by 1076 companies from 66 notifications to the ECHA C&L Inventory. Each notification may be associated with multiple companies.</p>
-<br>
-<p>Reported as not meeting GHS hazard criteria by 2 of 1076 companies. For more detailed information, please visit ECHA C&L website</p>
-<br>
-<p>Of the 65 notification(s) provided by 1074 of 1076 companies with hazard statement code(s):</p>
-<br>
-<p>H225 (99.91%): Highly Flammable liquid and vapor [Danger Flammable liquids]
-H302 (29.14%): Harmful if swallowed [Warning Acute toxicity, oral]
-H319 (95.07%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
-H335 (88.64%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
-H336 (22.91%): May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]
-H351br (41.34%): Suspected of causing cancer [Warning Carcinogenicity]</p>
-<br>
-<p>Information may vary between notifications depending on impurities, additives, and other factors. The percentage value in parenthesis indicates the notified classification ratio from companies that provide hazard codes. Only hazard codes with percentage values above 10% are shown. </p>
+      
+<div class="card-group">
+ <div class="card">
+    <img class="card-img-top" src="img/flame.svg" alt="Card image cap">
+    <div class="card-body">
+      
+      <h5 class="card-title">Flammable</h5>
+      <p class="card-text">Flammable materials are those that ignite more easily than other materials, whereas those that are harder to ignite or burn less vigorously are combustible.</p>
+    </div>
+    
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/bang.svg" alt="Card image cap">
+    <div class="card-body">
+        
+      <h5 class="card-title">Health Hazard</h5>
+      <p class="card-text">Tetrahydrofuran is suspected of causing cancer and it is may cause drowsinnes or dizzyness</p>
+    </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
+  <div class="card">
+    <img class="card-img-top" src="img/seru.svg" alt="Card image cap">
+    <div class="card-body">
+
+      <h5 class="card-title">Irritant</h5>
+      <p class="card-text">Tetrahydrofuran may cause injuries to the skin, the eyes or the airways after a single exposure. These injuries may range from small, initially invisible injuries after exposure to weak irritants up to chemical burns after exposure</p>
+    </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+      </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('.caption', {
+    duration: 4000,
+    origin:'top',
+    distance:'500px'
+  });
       
    </body>
 </html>
