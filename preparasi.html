@@ -36,11 +36,40 @@ body { margin-left: 100px;margin-right:100px; margin-top:10px;
 nav {
 	background-color: lightblue;color:white;
 }
-
+.parallax { 
+         /* Set a specific height */
+         height: 700px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+.caption {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: pragati narrow; 
+         }
+.caption span.border {
+         background-color: #111;
+         color: #ffff00;
+         padding: 18px;
+         font-size: 25px;  
+         letter-spacing: 10px;
+         }
 </style>
 
 </head>
 <body style="background-color: #ffffb3">
+	<body>
+      <div class="parallax"; style="background-image:url(img/pelo.jpg)">
+         <div class="caption">
+            <span class="border">ROYAL CHEMISTRY</span>
+         </div>
+      </div>
 	 <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
