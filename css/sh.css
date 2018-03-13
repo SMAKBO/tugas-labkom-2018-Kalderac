@@ -2,7 +2,7 @@
 
   .parallax { 
          /* Set a specific height */
-         height: 700px; 
+         height: 800px; 
          /* Create the parallax scrolling effect */
          background-attachment: fixed;
          background-position: center;
