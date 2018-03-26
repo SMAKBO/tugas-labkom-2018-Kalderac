@@ -54,3 +54,20 @@
 font-size: 18px;}
 .container-fluid2 {background-color: white}
 .lead {text-align: center; font-style: bold; font-family:'Berkshire Swash', cursive;color:#000000}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;}
+
+   .kaki {font-size: 20px; font-family: pragati narrow; font-style: italic;}
+
+   .kaki2 {font-size: 30px; font-family: coda; font-style: bold; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 5px; border-radius: 5px;}
+
+   .fut {width: 85px; height: 70px; }
