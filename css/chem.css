@@ -23,7 +23,7 @@
          letter-spacing: 10px;
          }
 
-         table {
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -33,7 +33,7 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-trnth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
 }
 
@@ -50,15 +50,32 @@ body {background-color: #ffffb3}
 
 .jumbotron {background-color: #ffcc00}
 
+h1 {color: white;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+
+h1 {text-align:center; background-color:sandybrown;}
+
 .display-4 {text-align: center; font-family: coda}
 
-img {float: left;width:110px;height:110px;margin-right:15px;}
+h3 {background-color:gold; text-align:center; font-family: 'Rye', cursive;}
+
+img {float:left width:120px;height:120px;margin-right:15px;}
 
 .asd {background-color:khaki; text-align:justify;}
 
-h2 {background-color:gold; text-align:center; font-family: 'coda', cursive; font-size: 20px}
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;}
+
+table {
+    border-collapse: collapse;
+    width: 100%;}
+
+th, td {
+    padding: 15px;}
 
 .dsa {font-size:160%; text-align:center;color:#ff4500}
+
+.CPE {background-color:khaki; text-align:justify;}
 
 .ss {width:200px height:100px margin:padding-left}
 
@@ -66,3 +83,20 @@ h2 {background-color:gold; text-align:center; font-family: 'coda', cursive; font
 font-family:script}
 
 a {color:red}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;}
+
+   .kaki {font-size: 20px; font-family: pragati narrow; font-style: italic;}
+
+   .kaki2 {font-size: 30px; font-family: coda; font-style: bold; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 5px; border-radius: 5px;}
+
+   .fut {width: 85px; height: 70px; }
