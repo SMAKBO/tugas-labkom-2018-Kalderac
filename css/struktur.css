@@ -1,0 +1,75 @@
+  .parallax { 
+           /* Set a specific height */
+           height: 700px; 
+           /* Create the parallax scrolling effect */
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           }
+  .caption {
+           position: absolute;
+           left: 0;
+           top: 50%;
+           width: 100%;
+           text-align: center;
+           font-family: coda; 
+           }
+  .caption span.border {
+           background-color: #111;
+           color: #ffff00;
+           padding: 18px;
+           font-size: 30px;  
+           letter-spacing: 10px;
+           }
+
+
+  /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 60%;
+        height: 60%;
+    }
+
+    body {background-color: #ffffb3;}
+
+    .blog-header-logo {font-size: 45px; font-family: hammersmith one; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+      padding-right: 5px;
+      padding-bottom: 1px;
+      padding-left: 5px; border-radius: 5px;}
+
+    .btn {border: 1px solid  #6699ff}
+
+    .nav-tabs {font-family: saira semi Condensed;font-size: 20px;}
+
+    .jumbotron {background-color: #ffcc00}
+
+    .display-4 {text-align: center; font-family: coda;}
+
+    .lead {text-align: center;font-style: italic;}
+
+    .text {font: 18px "coda"; text-align: justify;}
+
+    .container-fluid {background-color: black}
+
+    .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;font-size: 20px}
+
+    .rounded float-left {width:300px;height:300px;}
+    .rounded float-right {width:300px;height:300px;}
+    .rounded float-mid {width:300px;height:300px;}
+
+    .footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;}
+
+     .kaki {font-size: 20px; font-family: pragati narrow; font-style: italic;}
+
+     .kaki2 {font-size: 30px; font-family: coda; font-style: bold; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+      padding-right: 5px;
+      padding-bottom: 1px;
+      padding-left: 5px; border-radius: 5px;}
+
+     .fut {width: 85px; height: 70px; }
