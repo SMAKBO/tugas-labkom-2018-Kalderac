@@ -1,8 +1,6 @@
-  body {background-color: #ffffb3;}
-
-  .parallax { 
+.parallax { 
          /* Set a specific height */
-         height: 850px; 
+         height: 700px; 
          /* Create the parallax scrolling effect */
          background-attachment: fixed;
          background-position: center;
@@ -25,6 +23,15 @@
          letter-spacing: 10px;
          }
 
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 60%;
+      height: 60%;
+  }
+
+  body {background-color: #ffffb3;}
+
   .blog-header-logo {font-size: 45px; font-family: hammersmith one; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
     padding-right: 5px;
     padding-bottom: 1px;
@@ -38,12 +45,27 @@
 
   .display-4 {text-align: center; font-family: coda;}
 
-  .card-body {background-color: #ffffb3}
+  .lead {text-align: center;font-style: italic;}
 
-  .card-title {font-family: hammersmith one}
-
-  .card-text {font-family: overpass}
+  .text {font: 18px "coda"; text-align: justify;}
 
   .container-fluid {background-color: black}
 
-  .ccd {text-align: center; font-style: bold; font-family:lekton;color:#ffffff;font-size: 20px}
+  .ccd {text-align: center; font-style: bold; font-family:Lobster;color:#ffffff;font-size: 20px}
+
+  .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;}
+
+   .kaki {font-size: 20px; font-family: pragati narrow; font-style: italic;}
+
+   .kaki2 {font-size: 30px; font-family: coda; font-style: bold; border-bottom: 3.5px solid #ffcc00;padding-top:1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 5px; border-radius: 5px;}
+
+   .fut {width: 85px; height: 70px; }
